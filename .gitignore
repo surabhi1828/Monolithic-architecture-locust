@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# But unignore the .gitignore file and project source files/directories
+!/.gitignore
+!/requirements.txt
+!/src/
+!/*.py
+# Add other project-specific files/directories as needed (e.g., !/README.md)
+
+# Ensure common virtual environment directory names are ignored (this is implicitly covered by '*', but explicitly listed for clarity)
+venv/
+.venv/
